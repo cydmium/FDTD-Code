@@ -1,0 +1,21 @@
+\documentclass{article}
+\title{FDTD Update Equations}
+\author{David Richardson}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{1D Update Equations}
+
+This section will contain the update equations for the 1-dimensional models.
+
+Source Update Equation:
+\begin{equation}
+    V_0^{n+\frac{1}{2}}=(C\frac{\Delta x}{2\Delta t}+\frac{1}{2R_g})^{-1}
+    [(C\frac{\Delta x}{2\Delta
+    t}-\frac{1}{2R_g})V_0^{n-\frac{1}{2}}-I_{\frac{1}{2}}^n+\frac{V_g^n}{R_g}]
+\end{equation}
+
+\end{document}
